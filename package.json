@@ -1,0 +1,16 @@
+{
+  "name": "tarea4",
+  "version": "1.0.0",
+  "description": "tarea 4 coder",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "jonathan alvarado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
