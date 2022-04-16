@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Formulario ingreso de productos</title>
 </head>
 <body>
-    
+    <div class="contenedor">
+        <form>
+            <input type="text" id="title" name="title" placeholder="Title">
+            <input type="number" placeholder="Price">
+            <input type="text" placeholder="Thumbnail">
+            <button type="submit" id="agregar">Agregar</button>
+        </form>
+        <button id="obtener">Obtener todos los productos</button>
+    </div>
+
+    <script src="./formulario.js"></script>
 </body>
 </html>

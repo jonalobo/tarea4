@@ -10,7 +10,11 @@ app.use('/api/productos', rutaProductos)
 
 const PORT = 8080
 
-app.listen(PORT,()=>{
+
+const server = app.listen(PORT,()=>{
     console.log(`Servidor en línea en el puerto ${PORT}`)
+})
+server.on('error',(error)=>{
+    console.log(error)
 })
 
